@@ -36,10 +36,12 @@ namespace BibliotecaOVNI
             get { 
                 Array.Sort(_planetasValidos); 
                 return _planetasValidos; 
+
             } 
         }
         public int QtdAbduzidos { get { return _qtdAbduzidos;} }
         public int QtdTripulantes { get { return _qtdTripulantes;} }
+        public string PlanetaAtual { get { return _planetaAtual; } }
 
         
 
